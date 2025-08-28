@@ -1,0 +1,6 @@
+aws_region     = "us-west-2"
+vpc_cidr_block = "10.0.0.0/16"
+environment    = "dev"
+project_name   = "terraform-vpc-ec2"
+instance_type  = "t3.micro"
+key_name       = "terraform-key"
