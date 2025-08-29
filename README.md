@@ -38,27 +38,31 @@ This Terraform configuration creates a complete AWS infrastructure with:
 - EC2 key pair named "terraform-key" (or update key_name variable)
 
 ## Usage
+1. Clone the repository
+   ```bash
+   git clone <repo-url>
+   cd <repo-folder>
 
-1. Initialize Terraform:
+2. Initialize Terraform:
    ```bash
    terraform init
    ```
 
-2. Review the plan:
+3. Review the plan:
    ```bash
    terraform plan
    ```
 
-3. Apply the configuration:
+4. Apply the configuration:
    ```bash
    terraform apply
    ```
 
-4. Access the nginx server:
+5. Access the nginx server:
    - Use the public IP output from terraform
    - Access via HTTP on port 80
 
-5. Destroy the infrastructure:
+6. Destroy the infrastructure:
    ```bash
    terraform destroy
    ```
